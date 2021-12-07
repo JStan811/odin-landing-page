@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+
+}
+
+/* hero section */
+.hero {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+  gap: 20px;
+}
+
+.hero-container {
+  display: flex;
+  gap: 50px;
+}
+
+.hero-container-image {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin-left: auto;
+}
+
+.hero-container-body {
+  width: 400px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-secondary-text{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* information section */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+.media-object-image {
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+  height: 160px;
+  width: 160px;
+}
+
+.media-objects {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.media-object {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.media-object-subtext {
+  width: 160px;
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* quote section */
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 600px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  font-size; 24px;
+  align-self: end;
+}
